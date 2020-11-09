@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 
 .hide {
   opacity: 0;
@@ -5,4 +11,19 @@
 .show {
   opacity: 1;
   transition: opacity 1s;
+}
+
+
+header{
+  background-color: pink;
+  padding: 6%;
+  text-align: center;
+}
+
+.temp{
+  padding: 2%;
+}
+
+.temp h2{
+  padding-bottom: 2%;
 }
